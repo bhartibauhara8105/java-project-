@@ -6,7 +6,7 @@ public class InsuranceRate {
 	}
 	public static int calculateRate(final String birth)throws Exception
 	{
-	final int year=2015;
+	final int year=2019;
 	int age=0;
 	int birthYear=Integer.parseInt(birth);
 	age = year-birthYear;
